@@ -6,14 +6,14 @@ public class ArrayExamples {
         System.out.println(s);
 
         int[][][] a = {{{10}}, {{20}}, {{30}}};
-        System.out.println(Arrays.toString(a));
-        /*for(int i=0;i<a.length;i++){
+        //System.out.println(Arrays.toString(a));
+        for(int i=0;i<a.length;i++){
             for(int j=0;j<a[i].length;j++){
                 for(int k=0;k<a[j].length;k++){
                     System.out.println(a[i][j][k]);
                 }
             }
-        }*/
+        }
         int[] a1 = {10, 20, 30};
         System.out.println(Arrays.toString(a1));
         int[] b = new int[3];
