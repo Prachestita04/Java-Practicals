@@ -5,6 +5,14 @@ public class ArrayExamples {
         String s = new String("Mamuni1");
         System.out.println(s);
 
+        int[] e=new int[0];
+        System.out.println(e.length);
+
+        //check output
+        //int[] d=new int[-3];
+       // int[] d1=new int[2147483647];
+        //int[] d2=new int[2147483648];
+
         int[][][] a = {{{10}}, {{20}}, {{30}}};
         //System.out.println(Arrays.toString(a));
         for(int i=0;i<a.length;i++){
