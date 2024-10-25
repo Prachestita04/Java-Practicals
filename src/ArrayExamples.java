@@ -13,6 +13,17 @@ public class ArrayExamples {
        // int[] d1=new int[2147483647];
         //int[] d2=new int[2147483648];
 
+        System.out.println("program starting");
+        int[] e1=new int['a'];
+        System.out.println(e1.length);
+        byte bn=10;
+        int[] e2=new int[bn];
+        System.out.println(e2.length);
+        short sn=20;
+        int[] e3=new int[sn];
+        System.out.println(e3.length);
+        System.out.println("End of the above program");
+
         int[][][] a = {{{10}}, {{20}}, {{30}}};
         //System.out.println(Arrays.toString(a));
         for(int i=0;i<a.length;i++){
