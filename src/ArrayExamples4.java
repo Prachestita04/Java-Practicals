@@ -1,5 +1,5 @@
 public class ArrayExamples4 {
-    String sName;
+    private String sName;
     int roll;
     int sClass;
     public void methodOne(){
@@ -9,7 +9,12 @@ public class ArrayExamples4 {
     {
         roll = 20;
     }
-//    ArrayExamples4(String s,int r,int c){
+
+    public void setsName(String sName) {
+        this.sName = sName;
+    }
+
+    //    ArrayExamples4(String s,int r,int c){
 //        s = this.sName;
 //        r = this.roll;
 //        c = this.sClass;
